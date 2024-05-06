@@ -1,9 +1,4 @@
 package br.com.cursoalura.challenge_currencyconverter.model;
-import java.io.IOException;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
 
 public class CurrencyConverter {
     private String currentCurrency;
@@ -11,45 +6,11 @@ public class CurrencyConverter {
     private double currencyToConvertRate;
     private double amount;
     private double amountConverted;
+    private String dataCreated;
 
-    public double getAmountConverted() {
-        return amountConverted;
-    }
-
-    public void setAmountConverted(double amountConverted) {
-        this.amountConverted = amountConverted;
-    }
-
-    public double getAmount() {
-        return amount;
-    }
 
     public void setAmount(double amount) {
         this.amount = amount;
-    }
-
-    public String getCurrentCurrency() {
-        return currentCurrency;
-    }
-
-    public void setCurrentCurrency(String currentCurrency) {
-        this.currentCurrency = currentCurrency;
-    }
-
-    public String getCurrencyToConvert() {
-        return currencyToConvert;
-    }
-
-    public void setCurrencyToConvert(String currencyToConvert) {
-        this.currencyToConvert = currencyToConvert;
-    }
-
-    public double getCurrencyToConvertRate() {
-        return currencyToConvertRate;
-    }
-
-    public void setCurrencyToConvertRate(double currencyToConvertRate) {
-        this.currencyToConvertRate = currencyToConvertRate;
     }
 
     public CurrencyConverter(String currentCurrency, String currencyToConvert, double amount){
@@ -63,7 +24,7 @@ public class CurrencyConverter {
     this.currencyToConvert = currentApi.target_code();
     this.currencyToConvertRate = Double.valueOf(currentApi.conversion_rate());
     this.amountConverted = Double.valueOf(currentApi.conversion_result());
-
+    this.dataCreated = currentApi.time_last_update_utc().substring(0,16);
     }
 
     @Override

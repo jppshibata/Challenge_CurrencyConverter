@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5d79f75-0963-4c63-87ad-b97d066c78a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/converters/ConvertJsonToObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/converters/ConvertObjectToJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/model/CurrencyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/model/CurrencyConverterAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/search/SearchCurrency.java" afterDir="false" />
+    <list default="true" id="d5d79f75-0963-4c63-87ad-b97d066c78a7" name="Changes" comment="Conversão de Moeda&#10;Conversores de Json to Object e Object to Json&#10;Classes de conversão da moeda e api&#10;Classe de Busca da Conversão para realizar&#10;Main com as opções de conversão e filewriter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Challenge_CurrencyConverter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Challenge_CurrencyConverter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/model/CurrencyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/model/CurrencyConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/model/CurrencyConverterAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/model/CurrencyConverterAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +31,12 @@
     &quot;assignee&quot;: &quot;jppshibata&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jppshibata/Challenge_CurrencyConverter.git&quot;,
-    &quot;accountId&quot;: &quot;18263b62-a075-4338-b083-e6d6478390c9&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jppshibata/Challenge_CurrencyConverter.git",
+    "accountId": "0532e976-9f3f-4549-ba43-c8b08bcbfd9d"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -72,6 +67,19 @@
       <option name="presentableId" value="Default" />
       <updated>1714536818422</updated>
     </task>
+    <task id="LOCAL-00001" summary="Conversão de Moeda&#10;Conversores de Json to Object e Object to Json&#10;Classes de conversão da moeda e api&#10;Classe de Busca da Conversão para realizar&#10;Main com as opções de conversão e filewriter">
+      <option name="closed" value="true" />
+      <created>1714968239641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714968239641</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Conversão de Moeda&#10;Conversores de Json to Object e Object to Json&#10;Classes de conversão da moeda e api&#10;Classe de Busca da Conversão para realizar&#10;Main com as opções de conversão e filewriter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conversão de Moeda&#10;Conversores de Json to Object e Object to Json&#10;Classes de conversão da moeda e api&#10;Classe de Busca da Conversão para realizar&#10;Main com as opções de conversão e filewriter" />
   </component>
 </project>
