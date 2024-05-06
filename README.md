@@ -4,6 +4,9 @@
 
 * Java
 
+## Requisitos:
+A aplicação foi desenvolvida e testada com a versão 17 do Java, mas deve funcionar com Java a partir da versão 11.
+
 ## Descrição da Aplicação:
 
 ### Conforme a proposta, o conversor de moedas permite que certos valores de moedas sejam convertidos e mostrados em outra determinada moeda, estes valores foram retirados de uma API chamada <a href="https://www.exchangerate-api.com/">Exchange Rate API</a>, o qual possui as informações necessárias para a execução dessa conversão.
