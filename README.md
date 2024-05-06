@@ -5,7 +5,7 @@
 * Java
 
 ## Requisitos:
-A aplicação foi desenvolvida e testada com a versão 17 do Java, mas deve funcionar com Java a partir da versão 11.
+A aplicação foi desenvolvida e testada com a versão 17 do Java.
 
 ## Descrição da Aplicação:
 
