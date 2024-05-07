@@ -8,7 +8,7 @@ import com.google.gson.GsonBuilder;
 public class ConvertJsonToObject {
 
 
-    public CurrencyConverterAPI ConvertJsToObj(String jsonConvert) {
+    public CurrencyConverterAPI convertJsToObj(String jsonConvert) {
         Gson gson = null;
         try {
             gson = new GsonBuilder()

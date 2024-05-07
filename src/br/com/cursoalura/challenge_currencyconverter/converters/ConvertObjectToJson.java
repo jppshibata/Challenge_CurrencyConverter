@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ConvertObjectToJson {
 
-    public String ConvertObjToJson(List<CurrencyConverter> currencyList) {
+    public String convertObjToJson(List<CurrencyConverter> currencyList) {
         Gson gson = null;
         try {
              gson = new GsonBuilder()

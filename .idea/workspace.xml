@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5d79f75-0963-4c63-87ad-b97d066c78a7" name="Changes" comment="Conversão de Moeda&#10;Conversores de Json to Object e Object to Json&#10;Classes de conversão da moeda e api&#10;Classe de Busca da Conversão para realizar&#10;Main com as opções de conversão e filewriter">
+    <list default="true" id="d5d79f75-0963-4c63-87ad-b97d066c78a7" name="Changes" comment="Adesão da classe de Data de Criação para o Log do txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/model/CurrencyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/model/CurrencyConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/model/CurrencyConverterAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/cursoalura/challenge_currencyconverter/model/CurrencyConverterAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +29,12 @@
     &quot;assignee&quot;: &quot;jppshibata&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jppshibata/Challenge_CurrencyConverter.git",
-    "accountId": "0532e976-9f3f-4549-ba43-c8b08bcbfd9d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jppshibata/Challenge_CurrencyConverter.git&quot;,
+    &quot;accountId&quot;: &quot;0532e976-9f3f-4549-ba43-c8b08bcbfd9d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -52,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/jpps/IdeaProjects/Challenge_CurrencyConverter",
+    "last_opened_file_path": "/home/jpps/Desktop/Alura/Formacao_Java_e_Spring/screenmatch",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -75,11 +73,20 @@
       <option name="project" value="LOCAL" />
       <updated>1714968239641</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adesão da classe de Data de Criação para o Log do txt">
+      <option name="closed" value="true" />
+      <created>1714969812278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714969812278</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Conversão de Moeda&#10;Conversores de Json to Object e Object to Json&#10;Classes de conversão da moeda e api&#10;Classe de Busca da Conversão para realizar&#10;Main com as opções de conversão e filewriter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conversão de Moeda&#10;Conversores de Json to Object e Object to Json&#10;Classes de conversão da moeda e api&#10;Classe de Busca da Conversão para realizar&#10;Main com as opções de conversão e filewriter" />
+    <MESSAGE value="Adesão da classe de Data de Criação para o Log do txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adesão da classe de Data de Criação para o Log do txt" />
   </component>
 </project>

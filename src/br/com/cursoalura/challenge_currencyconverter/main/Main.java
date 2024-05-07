@@ -54,7 +54,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("BRL", "USD", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -64,7 +64,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("BRL", "ARS", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -74,7 +74,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("BRL", "BOB", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -84,7 +84,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("BRL", "CLP", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -94,7 +94,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("BRL", "COP", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -104,7 +104,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("USD", "ARS", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -114,7 +114,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("USD", "BRL", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -124,7 +124,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("USD", "BOL", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -134,7 +134,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("USD", "CLP", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -144,7 +144,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("USD", "COL", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -154,7 +154,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("ARS", "BRL", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -164,7 +164,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("COL", "BRL", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -174,7 +174,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("CLP", "BRL", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -184,7 +184,7 @@ public class Main {
                     System.out.println("Digite o valor a ser convertido");
                     amount = scanner.nextDouble();
                     dataCurrentJson = dataCurrency.getCurrencyConvert("COP", "BRL", amount);
-                    myCurrentAPI  = convertJs.ConvertJsToObj(dataCurrentJson);
+                    myCurrentAPI  = convertJs.convertJsToObj(dataCurrentJson);
                     currentConvertObj = new CurrencyConverter(myCurrentAPI);
                     currentConvertObj.setAmount(amount);
                     System.out.println(currentConvertObj);
@@ -192,7 +192,7 @@ public class Main {
                     break;
                 case 15:
                     jsonList = new ConvertObjectToJson();
-                    String jsonListConvert = jsonList.ConvertObjToJson(currencyList);
+                    String jsonListConvert = jsonList.convertObjToJson(currencyList);
                     writeText.write(jsonListConvert);
                     writeText.close();
                     System.out.println(currencyList);
